@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sobaka">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="400dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="12dp"
+        android:text="Раскройте пальцы рук и укорените ладони плотно в пол. Средние пальцы направьте строго вперёд, а основания больших и указательных пальцев рук прижмите к полу. На выдохе поднимите таз вверх, согнув ноги в коленях, отталкиваясь от пола руками, с прямой спиной — тело принимает форму треугольника."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="400dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="7dp"
+        android:text="Одна нога находится на вершине противоположного бедра, пятка близко к животу. Другая нога помещается на противоположном бедре симметрично. Колени касаются земли. Туловище находится в равновесии, с прямым позвоночником."
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/derevo" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="207dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/lotus"
+        tools:ignore="UnknownId" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="207dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/sobaka"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="400dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="174dp"
+        android:text="Поза дерева (Врикшасана) начинается с положения стоя, где вы равномерно распределяете вес на обеих ногах. Согните правую ногу в колене и прижмите стопу к внутренней стороне левого бедра, удерживая колено направленным в сторону. Поднимите руки над головой, соединяя ладони или разводя их на ширину плеч. Удерживайте позу, дыша глубоко и сохраняя равновесие, от 10 до 20 секунд, затем аккуратно вернитесь в исходное положение."
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
